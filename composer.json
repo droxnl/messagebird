@@ -1,0 +1,22 @@
+{
+  "name": "droxnl/messagebird",
+  "description": "A Messagebird bridge for laravel",
+  "keywords": [
+    "laravel",
+    "messagebird",
+    "laravel messagebird"
+  ],
+  "homepage": "https://github.com/droxnl/messagebird",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thijmen Wijers",
+      "email": "thijmenwijers1@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^6.0",
+    "php" : ">=7.4",
+    "messagebird/php-rest-api": "^1.1"
+  }
+}
