@@ -8,6 +8,14 @@ A quickly built Laravel bridge for the `messagebird/php-rest-api` package.
 composer require droxnl/messagebird
 ```
 
+## Configuration
+
+``` bash
+php artisan vendor:publish
+```
+
+Set your `api_key` in `config/messagebird.php`
+
 ## Usage
 
 ### Get Balance
