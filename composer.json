@@ -18,5 +18,10 @@
     "illuminate/support": "^6.0",
     "php" : ">=7.4",
     "messagebird/php-rest-api": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Droxnl\\Messagebird\\": "src"
+    }
   }
 }
