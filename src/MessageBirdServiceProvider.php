@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src;
+namespace Droxnl\Messagebird;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src;
+namespace Droxnl\Messagebird;
 
 use MessageBird\Client;
 use MessageBird\Objects\BaseList;

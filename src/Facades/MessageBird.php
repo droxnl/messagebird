@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace src\Facades;
+namespace Droxnl\Messagebird\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
