@@ -1,4 +1,4 @@
-# MessageBird bridge for laravel 
+# MessageBird bridge for laravel 6 and upwards
 
 A quickly built Laravel bridge for the `messagebird/php-rest-api` package.
 
