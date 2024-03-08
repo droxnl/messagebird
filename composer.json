@@ -15,9 +15,13 @@
     }
   ],
   "require": {
-    "illuminate/support": "^6.0",
+    "illuminate/support": "7.*",
     "php" : ">=7.4",
     "messagebird/php-rest-api": "^1.1"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
   },
   "autoload": {
     "psr-4": {
