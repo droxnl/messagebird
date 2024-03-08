@@ -1,8 +1,7 @@
 ![Static Badge](https://img.shields.io/badge/Laravel-6/7/8-blue)
 ![Static Badge](https://img.shields.io/badge/PHP-7.4+-green)
 
-
-# MessageBird bridge for laravel
+# MessageBird bridge for laravel 6, 7 & 8
 
 A quickly built Laravel bridge for the `messagebird/php-rest-api` package.
 
