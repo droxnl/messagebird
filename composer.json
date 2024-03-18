@@ -15,8 +15,8 @@
     }
   ],
   "require": {
-    "illuminate/support": "8.*",
-    "php" : ">=8.0",
+    "illuminate/support": "6.*",
+    "php" : ">=7.4",
     "messagebird/php-rest-api": "^1.1"
   }
   ,
@@ -27,6 +27,16 @@
   "autoload": {
     "psr-4": {
       "Droxnl\\Messagebird\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Droxnl\\Messagebird\\Providers\\MessagebirdServiceProvider"
+      ],
+      "aliases": {
+        "Messagebird": "Droxnl\\Messagebird\\Facades\\Messagebird"
+      }
     }
   }
 }
