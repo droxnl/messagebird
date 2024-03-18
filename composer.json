@@ -28,15 +28,5 @@
     "psr-4": {
       "Droxnl\\Messagebird\\": "src"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Droxnl\\Messagebird\\MessagebirdServiceProvider"
-      ],
-      "aliases": {
-        "Messagebird": "Droxnl\\Messagebird\\Facades\\Messagebird"
-      }
-    }
   }
 }
