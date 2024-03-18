@@ -32,7 +32,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Droxnl\\Messagebird\\Providers\\MessagebirdServiceProvider"
+        "Droxnl\\Messagebird\\MessagebirdServiceProvider"
       ],
       "aliases": {
         "Messagebird": "Droxnl\\Messagebird\\Facades\\Messagebird"
